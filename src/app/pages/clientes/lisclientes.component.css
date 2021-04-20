@@ -1,0 +1,75 @@
+.contenedor {
+    font-family: "Raleway", sans-serif;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+
+/* hr .new1 {
+    border: 1px solid white;
+} */
+
+.panel-group {
+    display: grid;
+}
+
+.header {
+    display: grid;
+    background-color: #005b9f;
+    padding-left: 2.2rem;
+}
+
+.panel-heading {
+    height: 3rem;
+}
+
+.header h4 {
+    color: #eeeeee;
+}
+
+.body {
+    border: 1px solid black;
+}
+
+.heading {
+    margin-top: -.5rem;
+    padding-top: .1rem;
+    padding-left: 2.2rem;
+    background: rgba(230, 230, 230, 1);
+    background: -moz-linear-gradient(left, rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 2%, rgba(230, 230, 230, 1) 17%, rgba(227, 222, 227, 1) 39%, rgba(222, 222, 222, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(230, 230, 230, 1)), color-stop(2%, rgba(230, 230, 230, 1)), color-stop(17%, rgba(230, 230, 230, 1)), color-stop(39%, rgba(227, 222, 227, 1)), color-stop(100%, rgba(222, 222, 222, 1)));
+    background: -webkit-linear-gradient(left, rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 2%, rgba(230, 230, 230, 1) 17%, rgba(227, 222, 227, 1) 39%, rgba(222, 222, 222, 1) 100%);
+    background: -o-linear-gradient(left, rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 2%, rgba(230, 230, 230, 1) 17%, rgba(227, 222, 227, 1) 39%, rgba(222, 222, 222, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 2%, rgba(230, 230, 230, 1) 17%, rgba(227, 222, 227, 1) 39%, rgba(222, 222, 222, 1) 100%);
+    background: linear-gradient(to right, rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 2%, rgba(230, 230, 230, 1) 17%, rgba(227, 222, 227, 1) 39%, rgba(222, 222, 222, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#dedede', GradientType=1);
+    height: 3rem;
+}
+
+.panel-interno {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.contador {
+    padding-left: 2.2rem;
+}
+
+.table-list {
+    width: 100%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: .5rem 0;
+    text-align: center;
+}
+
+.list-grid {
+    display: flex;
+}
+
+.list-grid a {
+    padding-left: 2rem;
+}
